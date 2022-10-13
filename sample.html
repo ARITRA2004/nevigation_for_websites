@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+    /* * {
+        margin: 0;
+        padding: 0;
+    } */
+    body{
+        background-color: black;
+    }
+
+    .nevigation {
+        margin-top: 1%;
+        margin: 0px 130px;
+        padding: 3px;
+        list-style: none;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-around;
+        /* background-color: rgb(235, 195, 195); */
+        height: 3rem;
+        align-items: center;
+        /* border: solid gray; */
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: white;
+    }
+    .break hr{
+        margin: 0px 120px;
+    }
+    .img {
+        height: 34px;
+        width: 34px;
+        border: 1px solid;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .nevigation li {
+        cursor: pointer;
+    }
+
+    .nevigation li:hover {
+        cursor: pointer;
+        color: brown;
+        transition: 0.5s;
+    }
+
+    /* .container {
+        margin: 0px 200px;
+        word-wrap: break-word;
+    }
+
+    .paragraph {
+        margin-top: 1%;
+        text-align: justify;
+        color: white;
+    }
+    h1{
+        color: white;
+        margin-top: 2%;
+    }
+    .container p{
+        margin-top: 2%;
+    } */
+
+    @media screen and (max-width :700px) {
+        .paragraph {
+            margin-top: 1%;
+            text-align: justify;
+            color: white;
+        }
+
+        .container {
+            margin: 0px 23px;
+        }
+        .img{
+            display: none;
+        }
+    }
+</style>
+
+<body>
+    <div class="nevigation">
+        <li>Home</li>
+        <li>Contact</li>
+        <li>Blog</li>
+        <li>Works</li>
+        <img class="img" src="aritra.jpg" alt="aritra">
+    </div>
+    <!-- <div class="break">
+        <hr>
+    </div>
+    <div class="container">
+        <h1>Who is Aritra Mandal ?</h1>
+        <p class="paragraph">
+            Aritra Mandal is the owner of this website and his current work as a student . 
+        </p>
+    </div> -->
+</body>
+
+</html>
